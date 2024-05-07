@@ -1,3 +1,7 @@
+:root{
+    --BackGroundColor:rgb(27,27,27);
+    --ColorWords:rgb(255, 255, 72);
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,13 +12,17 @@ font-size: 62.5%;
 }
 body{
     background-color: rgb(27, 27, 27);
+    
 }
 body{
+    font-family: "Roboto Condensed", sans-serif;
 background-image: url(table1.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-height: 25rem;
+height: 100%;
+max-height: 19.5rem;
+
 }
 
 #menu__toggle{
@@ -383,9 +391,41 @@ height: 25rem;
 
 }
     }
-    
-    
-    
+ .Main-Tittle{
+
+    font-size: 3rem;
+   
+    padding: 6.5rem 15rem;
+    font-weight: 100;
+color: var(--ColorWords);
+   font-size: 7rem;
+ }   
+    .Section-Flex-Header{
+      padding: 5rem;
+        display: flex;
+     justify-content: start;
+     align-items: center;
+     border-bottom: 15px solid yellow;
+     height: 100%;
+     max-height: 40rem
+    }
+    @media(max-width : 900px)  and  (min-width : 300px){ 
+.Main-Tittle{
+  font-size: 5rem;
+  padding: 3rem 5rem;
+  max-height: 9rem;
+height: 100%;  
+}
+.Section-Flex-Header{
+  border-bottom: 5px solid yellow;
+  display: flex;
+  justify-content: stretch;
+}
+    }
+    @media (max-width : 1024px) and (min-width : 768px) {
+
+      
+    }
     
     
     
