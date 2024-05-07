@@ -274,7 +274,7 @@ height: 25rem;
     padding: 5rem;
     position: relative;
     z-index: 1005;
-    width: 90rem;
+    width: 39rem;
     }
 
 }
@@ -378,7 +378,9 @@ height: 25rem;
     padding: 5rem;
     position: relative;
     z-index: 1005;
-    width: 76.8rem;
+    width: 100%;
+    min-width: 84.5rem;
+
     }
     
     
