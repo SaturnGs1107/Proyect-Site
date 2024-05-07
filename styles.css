@@ -73,7 +73,7 @@ height: 25rem;
     .hamburger-menu a{
         margin: 0 2.4rem;
     }
-      @media  (min-width : 300px) and  (max-width : 900px){ 
+      @media(max-width : 900px)  and  (min-width : 300px){ 
         #menu__toggle {
             opacity: 0;
           }
@@ -274,7 +274,8 @@ height: 25rem;
     padding: 5rem;
     position: relative;
     z-index: 1005;
-    width: 39rem;
+    width: 100%;
+
     }
 
 }
@@ -379,8 +380,8 @@ height: 25rem;
     position: relative;
     z-index: 1005;
     width: 100%;
-    min-width: 84.5rem;
 
+}
     }
     
     
@@ -390,4 +391,4 @@ height: 25rem;
     
 
 
-}
+
