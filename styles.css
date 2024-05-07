@@ -431,7 +431,7 @@ padding: 0 3rem;
   border-bottom: 5px solid yellow;
   display: flex;
   justify-content:center;
-  
+  padding: 4.5rem 6rem;
 
 }
     }
@@ -445,12 +445,13 @@ padding: 0 3rem;
           font-weight: 900;
         color: #fd2929;
         text-align: center;
-        padding: 10rem 3rem;
+        padding: 5.5rem 3rem;
         }
         .Section-Flex-Header{
           border-bottom: 5px solid yellow;
           display: flex;
           justify-content:center;
+      
           
         
         }
