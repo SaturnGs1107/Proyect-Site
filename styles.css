@@ -21,8 +21,8 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height: 100%;
-max-height: 19.5rem;
-
+width: 100%;
+max-height: 20rem;
 }
 
 #menu__toggle{
@@ -392,18 +392,26 @@ max-height: 19.5rem;
 }
     }
  .Main-Tittle{
-font-size: 3rem;
-padding: 6.5rem 15rem;
-font-weight: 100;
+
+  padding: 6rem ;
+  
+font-weight: 400;
 color: var(--ColorWords);
 font-size: 7rem;
+
+
  }   
     .Section-Flex-Header{
-      padding: 5rem;
+      padding: 4.5rem 60rem;
+
         display: flex;
-     justify-content: start;
+     justify-content: center;
      align-items: center;
-     border-bottom: 15px solid yellow;
+     flex-direction: row-reverse;
+     flex-wrap: wrap;
+     align-content: center;
+     text-align: center;
+     border-bottom: 25px solid yellow;
      height: 100%;
      max-height: 40rem
     }
@@ -413,7 +421,7 @@ height: 100%;
 max-height: 40rem;
       } 
 .Main-Tittle{
-  font-size: 2.5rem;
+  font-size: 5rem;
   font-weight: 900;
 color: #fd2929;
 text-align: center;
@@ -428,7 +436,24 @@ padding: 0 3rem;
 }
     }
     @media (max-width : 1024px) and (min-width : 768px) {
-
+  body{
+  height: 100%;
+        max-height: 45rem;
+              } 
+        .Main-Tittle{
+          font-size: 4rem;
+          font-weight: 900;
+        color: #fd2929;
+        text-align: center;
+        padding: 10rem 3rem;
+        }
+        .Section-Flex-Header{
+          border-bottom: 5px solid yellow;
+          display: flex;
+          justify-content:center;
+          
+        
+        }
       
     }
     
