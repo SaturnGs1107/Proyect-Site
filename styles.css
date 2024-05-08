@@ -12,6 +12,8 @@ font-size: 62.5%;
 }
 body{
     background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 100%;
     
 }
 body{
@@ -411,7 +413,7 @@ font-size: 7rem;
      flex-wrap: wrap;
      align-content: center;
      text-align: center;
-     border-bottom: 25px solid yellow;
+
      height: 100%;
      max-height: 40rem
     }
@@ -428,7 +430,6 @@ text-align: center;
 padding: 0 3rem;
 }
 .Section-Flex-Header{
-  border-bottom: 5px solid yellow;
   display: flex;
   justify-content:center;
   padding: 4.5rem 6rem;
@@ -448,7 +449,7 @@ padding: 0 3rem;
         padding: 5.5rem 3rem;
         }
         .Section-Flex-Header{
-          border-bottom: 5px solid yellow;
+         
           display: flex;
           justify-content:center;
       
@@ -458,8 +459,53 @@ padding: 0 3rem;
       
     }
     
-    
-    
+    .video-container {
+      width: 100%;
+      max-width: 600px; /* Ajusta el ancho máximo según tu diseño */
+margin: 4rem 7rem;
+      overflow: hidden; /* Evita que el video se desborde del contenedor */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+text-align: start;
+    }
+/* Estilo del reproductor de video */
+.video-container video {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0;
+
+
+}
+.Containers-Flex-Videos{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 6rem 2rem ;
+  
+}
+.Tittles-Videos{
+  font-weight: 300;
+  color: var(--ColorWords);
+
+  padding: 0 8rem;
+  font-size: 3.4rem;
+}
+.Descriptions-Videos{
+  color: #ECEFF1;
+  text-align: start;
+  font-size: 2rem;
+  padding: 3rem 2rem;
+
+}
+
+.video-container video::-webkit-media-controls {
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo de los controles */
+
+}
 
 
 

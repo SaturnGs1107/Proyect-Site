@@ -28,6 +28,48 @@
 <h1 class="Main-Tittle">INICIO</h1>
 
 </div>
+<div class="Containers-Flex-Videos">
+<div class="video-container ">
+  <h2 class="Tittles-Videos">Investigacion Cualitativa</h2>
+  <p class="Descriptions-Videos"> La investigación cualitativa es un enfoque de investigación que busca comprender fenómenos sociales o humanos a 
+    través de la exploración detallada y profunda de experiencias, percepciones y contextos</p>
+</div>
+
+  
+  <video width="440" height="220" controls>
+    <source src="Investigacion-Cualitativa.mp4" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+</div>
 
 </body>
+<script>
+  // Función para generar un piropo amoroso
+function piropoAmoroso(nombre) {
+    // Lista de piropos
+    const piropos = [
+        `¡Hola ${nombre}! Eres como un sueño hecho realidad.`,
+        `Si la belleza fuese tiempo, tú serías la eternidad, ${nombre}.`,
+        `Cada vez que te veo, ${nombre}, mi corazón late más fuerte.`,
+        `¿Crees en el amor a primera vista o debería volver a pasar por delante de ti, ${nombre}?`,
+        `Contigo, ${nombre}, el amor es un viaje sin fin hacia la felicidad.`,
+        `Eres el latido de mi corazón, ${nombre}.`,
+        `¿Tienes un mapa? Porque me he perdido en tus ojos, ${nombre}.`,
+        `El universo conspiró para que nos encontráramos, ${nombre}.`,
+        `Tu sonrisa, ${nombre}, ilumina mi mundo más oscuro.`,
+        `Eres la melodía que mi corazón no se cansa de cantar, ${nombre}.`
+    ];
+
+    // Generar un piropo aleatorio
+    const piropo = piropos[Math.floor(Math.random() * piropos.length)];
+
+    // Retornar el piropo generado
+    return piropo;
+}
+
+// Uso de la función
+const nombre = "Cielo"; // Puedes cambiar el nombre según tu preferencia
+const piropo = piropoAmoroso(nombre);
+console.log(piropo);
+</script>
 </html>
